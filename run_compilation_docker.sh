@@ -10,5 +10,5 @@ docker run -it --rm \
        -v $PWD/packages:$HOME/packages \
        -v /etc/passwd:/etc/passwd \
        -u $(id -u):$(id -g) \
-       stretch-slim-gcc $HOME/scripts/compile_gcc.sh $1 $2 $3
+       stretch-slim-gcc $HOME/scripts/compile_gcc.sh $1 $2 $3 $4
 

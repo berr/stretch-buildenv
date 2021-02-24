@@ -4,6 +4,7 @@ RUN apt-get -qq update \
     && apt-get install --no-install-recommends -y \
        build-essential \
        gcc-multilib \
+       m4 \
        xz-utils \
     && apt-get clean \
     && apt-get autoclean \
